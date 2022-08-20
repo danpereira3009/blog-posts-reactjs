@@ -47,8 +47,7 @@ handleChange = (e) => {
 }
 
   render() {
-    const {posts, page, postsPerPage, allPosts, searchValue } = this.state
-    const noMorePosts = page + postsPerPage >= allPosts.length
+    const {posts, searchValue } = this.state
 
     const filteredPosts = !!searchValue ? posts.filter(post => {
       return post.title.toLowerCase().includes(searchValue.toLowerCase()
