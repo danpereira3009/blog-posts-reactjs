@@ -36,11 +36,10 @@
 }
 
 .btn{
-  width: 100%;
-  padding: 16px;
-  border: none;
+  width: 10em;
+  padding: 8px;
   border-radius: 1em;
-  margin: 8px;
+  margin: 8px 8px 16px 8px;
   background-color: aqua;
 }
 
@@ -59,4 +58,5 @@
   box-shadow: 2px 1px 1px gray;
   border-radius: 4px;
   padding: 6px;
+  margin: 8px;
 }
