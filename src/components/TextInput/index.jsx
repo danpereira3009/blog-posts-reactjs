@@ -14,4 +14,4 @@ export class TextInput extends Component {
 
     )
   }
-};
+}
