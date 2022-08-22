@@ -1,12 +1,17 @@
-export const TextInput = (props, { searchValue, handleChange, }) => {
+import { Component } from "react";
+
+export class TextInput extends Component {
+  render() {
   return (
 
-    <input 
-    className={props.className}
-    onChange={handleChange}
-    value={searchValue}
-    type="search" 
-    />  
+      <input 
+        className={this.props.className}
+        onChange={this.props.onChange}
+        value={this.props.value}
+        type="search" 
+        placeholder="Faça sua pesquisa"
+      />  
 
     )
-}
+  }
+};
